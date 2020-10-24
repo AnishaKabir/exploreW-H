@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EF5E64A2544A44000ECA7FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF5E6492544A44000ECA7FA /* AppDelegate.swift */; };
+		3EF5E64C2544A44000ECA7FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF5E64B2544A44000ECA7FA /* SceneDelegate.swift */; };
+		3EF5E64E2544A44000ECA7FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF5E64D2544A44000ECA7FA /* ViewController.swift */; };
+		3EF5E6512544A44000ECA7FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF5E64F2544A44000ECA7FA /* Main.storyboard */; };
+		3EF5E6532544A44000ECA7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF5E6522544A44000ECA7FA /* Assets.xcassets */; };
+		3EF5E6562544A44000ECA7FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF5E6542544A44000ECA7FA /* LaunchScreen.storyboard */; };
+		3EF5E6612544A44100ECA7FA /* womxnhacksappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF5E6602544A44100ECA7FA /* womxnhacksappTests.swift */; };
+		3EF5E66C2544A44100ECA7FA /* womxnhacksappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF5E66B2544A44100ECA7FA /* womxnhacksappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF5E65D2544A44100ECA7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF5E63E2544A44000ECA7FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF5E6452544A44000ECA7FA;
+			remoteInfo = womxnhacksapp;
+		};
+		3EF5E6682544A44100ECA7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF5E63E2544A44000ECA7FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF5E6452544A44000ECA7FA;
+			remoteInfo = womxnhacksapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EF5E6462544A44000ECA7FA /* womxnhacksapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = womxnhacksapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF5E6492544A44000ECA7FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EF5E64B2544A44000ECA7FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3EF5E64D2544A44000ECA7FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EF5E6502544A44000ECA7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EF5E6522544A44000ECA7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EF5E6552544A44000ECA7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EF5E6572544A44000ECA7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF5E65C2544A44100ECA7FA /* womxnhacksappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = womxnhacksappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF5E6602544A44100ECA7FA /* womxnhacksappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = womxnhacksappTests.swift; sourceTree = "<group>"; };
+		3EF5E6622544A44100ECA7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF5E6672544A44100ECA7FA /* womxnhacksappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = womxnhacksappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF5E66B2544A44100ECA7FA /* womxnhacksappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = womxnhacksappUITests.swift; sourceTree = "<group>"; };
+		3EF5E66D2544A44100ECA7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF5E6432544A44000ECA7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF5E6592544A44100ECA7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF5E6642544A44100ECA7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF5E63D2544A44000ECA7FA = {
+			isa = PBXGroup;
+			children = (
+				3EF5E6482544A44000ECA7FA /* womxnhacksapp */,
+				3EF5E65F2544A44100ECA7FA /* womxnhacksappTests */,
+				3EF5E66A2544A44100ECA7FA /* womxnhacksappUITests */,
+				3EF5E6472544A44000ECA7FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF5E6472544A44000ECA7FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF5E6462544A44000ECA7FA /* womxnhacksapp.app */,
+				3EF5E65C2544A44100ECA7FA /* womxnhacksappTests.xctest */,
+				3EF5E6672544A44100ECA7FA /* womxnhacksappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EF5E6482544A44000ECA7FA /* womxnhacksapp */ = {
+			isa = PBXGroup;
+			children = (
+				3EF5E6492544A44000ECA7FA /* AppDelegate.swift */,
+				3EF5E64B2544A44000ECA7FA /* SceneDelegate.swift */,
+				3EF5E64D2544A44000ECA7FA /* ViewController.swift */,
+				3EF5E64F2544A44000ECA7FA /* Main.storyboard */,
+				3EF5E6522544A44000ECA7FA /* Assets.xcassets */,
+				3EF5E6542544A44000ECA7FA /* LaunchScreen.storyboard */,
+				3EF5E6572544A44000ECA7FA /* Info.plist */,
+			);
+			path = womxnhacksapp;
+			sourceTree = "<group>";
+		};
+		3EF5E65F2544A44100ECA7FA /* womxnhacksappTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF5E6602544A44100ECA7FA /* womxnhacksappTests.swift */,
+				3EF5E6622544A44100ECA7FA /* Info.plist */,
+			);
+			path = womxnhacksappTests;
+			sourceTree = "<group>";
+		};
+		3EF5E66A2544A44100ECA7FA /* womxnhacksappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF5E66B2544A44100ECA7FA /* womxnhacksappUITests.swift */,
+				3EF5E66D2544A44100ECA7FA /* Info.plist */,
+			);
+			path = womxnhacksappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF5E6452544A44000ECA7FA /* womxnhacksapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF5E6702544A44100ECA7FA /* Build configuration list for PBXNativeTarget "womxnhacksapp" */;
+			buildPhases = (
+				3EF5E6422544A44000ECA7FA /* Sources */,
+				3EF5E6432544A44000ECA7FA /* Frameworks */,
+				3EF5E6442544A44000ECA7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = womxnhacksapp;
+			productName = womxnhacksapp;
+			productReference = 3EF5E6462544A44000ECA7FA /* womxnhacksapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EF5E65B2544A44100ECA7FA /* womxnhacksappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF5E6732544A44100ECA7FA /* Build configuration list for PBXNativeTarget "womxnhacksappTests" */;
+			buildPhases = (
+				3EF5E6582544A44100ECA7FA /* Sources */,
+				3EF5E6592544A44100ECA7FA /* Frameworks */,
+				3EF5E65A2544A44100ECA7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF5E65E2544A44100ECA7FA /* PBXTargetDependency */,
+			);
+			name = womxnhacksappTests;
+			productName = womxnhacksappTests;
+			productReference = 3EF5E65C2544A44100ECA7FA /* womxnhacksappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EF5E6662544A44100ECA7FA /* womxnhacksappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF5E6762544A44100ECA7FA /* Build configuration list for PBXNativeTarget "womxnhacksappUITests" */;
+			buildPhases = (
+				3EF5E6632544A44100ECA7FA /* Sources */,
+				3EF5E6642544A44100ECA7FA /* Frameworks */,
+				3EF5E6652544A44100ECA7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF5E6692544A44100ECA7FA /* PBXTargetDependency */,
+			);
+			name = womxnhacksappUITests;
+			productName = womxnhacksappUITests;
+			productReference = 3EF5E6672544A44100ECA7FA /* womxnhacksappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF5E63E2544A44000ECA7FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					3EF5E6452544A44000ECA7FA = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					3EF5E65B2544A44100ECA7FA = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 3EF5E6452544A44000ECA7FA;
+					};
+					3EF5E6662544A44100ECA7FA = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 3EF5E6452544A44000ECA7FA;
+					};
+				};
+			};
+			buildConfigurationList = 3EF5E6412544A44000ECA7FA /* Build configuration list for PBXProject "womxnhacksapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EF5E63D2544A44000ECA7FA;
+			productRefGroup = 3EF5E6472544A44000ECA7FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF5E6452544A44000ECA7FA /* womxnhacksapp */,
+				3EF5E65B2544A44100ECA7FA /* womxnhacksappTests */,
+				3EF5E6662544A44100ECA7FA /* womxnhacksappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF5E6442544A44000ECA7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF5E6562544A44000ECA7FA /* LaunchScreen.storyboard in Resources */,
+				3EF5E6532544A44000ECA7FA /* Assets.xcassets in Resources */,
+				3EF5E6512544A44000ECA7FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF5E65A2544A44100ECA7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF5E6652544A44100ECA7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF5E6422544A44000ECA7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF5E64E2544A44000ECA7FA /* ViewController.swift in Sources */,
+				3EF5E64A2544A44000ECA7FA /* AppDelegate.swift in Sources */,
+				3EF5E64C2544A44000ECA7FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF5E6582544A44100ECA7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF5E6612544A44100ECA7FA /* womxnhacksappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF5E6632544A44100ECA7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF5E66C2544A44100ECA7FA /* womxnhacksappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EF5E65E2544A44100ECA7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF5E6452544A44000ECA7FA /* womxnhacksapp */;
+			targetProxy = 3EF5E65D2544A44100ECA7FA /* PBXContainerItemProxy */;
+		};
+		3EF5E6692544A44100ECA7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF5E6452544A44000ECA7FA /* womxnhacksapp */;
+			targetProxy = 3EF5E6682544A44100ECA7FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EF5E64F2544A44000ECA7FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF5E6502544A44000ECA7FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF5E6542544A44000ECA7FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF5E6552544A44000ECA7FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EF5E66E2544A44100ECA7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EF5E66F2544A44100ECA7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF5E6712544A44100ECA7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NPPKY49AP;
+				INFOPLIST_FILE = womxnhacksapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Womxn-Hacks.womxnhacksapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EF5E6722544A44100ECA7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NPPKY49AP;
+				INFOPLIST_FILE = womxnhacksapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Womxn-Hacks.womxnhacksapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EF5E6742544A44100ECA7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NPPKY49AP;
+				INFOPLIST_FILE = womxnhacksappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Womxn-Hacks.womxnhacksappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/womxnhacksapp.app/womxnhacksapp";
+			};
+			name = Debug;
+		};
+		3EF5E6752544A44100ECA7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NPPKY49AP;
+				INFOPLIST_FILE = womxnhacksappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Womxn-Hacks.womxnhacksappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/womxnhacksapp.app/womxnhacksapp";
+			};
+			name = Release;
+		};
+		3EF5E6772544A44100ECA7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NPPKY49AP;
+				INFOPLIST_FILE = womxnhacksappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Womxn-Hacks.womxnhacksappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = womxnhacksapp;
+			};
+			name = Debug;
+		};
+		3EF5E6782544A44100ECA7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NPPKY49AP;
+				INFOPLIST_FILE = womxnhacksappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Womxn-Hacks.womxnhacksappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = womxnhacksapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF5E6412544A44000ECA7FA /* Build configuration list for PBXProject "womxnhacksapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF5E66E2544A44100ECA7FA /* Debug */,
+				3EF5E66F2544A44100ECA7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF5E6702544A44100ECA7FA /* Build configuration list for PBXNativeTarget "womxnhacksapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF5E6712544A44100ECA7FA /* Debug */,
+				3EF5E6722544A44100ECA7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF5E6732544A44100ECA7FA /* Build configuration list for PBXNativeTarget "womxnhacksappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF5E6742544A44100ECA7FA /* Debug */,
+				3EF5E6752544A44100ECA7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF5E6762544A44100ECA7FA /* Build configuration list for PBXNativeTarget "womxnhacksappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF5E6772544A44100ECA7FA /* Debug */,
+				3EF5E6782544A44100ECA7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EF5E63E2544A44000ECA7FA /* Project object */;
+}
