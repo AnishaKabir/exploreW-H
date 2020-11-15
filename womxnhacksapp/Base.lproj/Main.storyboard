@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="mascot transparent" translatesAutoresizingMaskIntoConstraints="NO" id="Uab-cz-Alo">
-                                <rect key="frame" x="144" y="-726" width="112" height="1923"/>
+                                <rect key="frame" x="151" y="-725" width="112" height="1923"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5e-0c-Cqs">
                                 <rect key="frame" x="74" y="374" width="118" height="118"/>
@@ -72,7 +72,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Womxn/Hacks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZ9-8s-4BU">
-                                <rect key="frame" x="82" y="88" width="236" height="42"/>
+                                <rect key="frame" x="89" y="88" width="236" height="42"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <color key="textColor" red="0.43130319853053251" green="0.22144677073722061" blue="0.78071462563451777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" systemColor="systemPurpleColor"/>
@@ -81,7 +81,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Uab-cz-Alo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="144" id="1W4-zX-qwG"/>
+                            <constraint firstItem="Uab-cz-Alo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="151" id="1W4-zX-qwG"/>
                             <constraint firstItem="T5e-0c-Cqs" firstAttribute="leading" secondItem="KAe-QR-hzO" secondAttribute="leading" id="5IL-fB-rhj"/>
                             <constraint firstItem="KAe-QR-hzO" firstAttribute="top" secondItem="sDr-Xb-RGM" secondAttribute="top" id="5wI-nF-5dW"/>
                             <constraint firstItem="T5e-0c-Cqs" firstAttribute="baseline" secondItem="QNl-rb-pt8" secondAttribute="firstBaseline" id="78w-xg-z9q"/>
@@ -96,9 +96,9 @@
                             <constraint firstItem="QNl-rb-pt8" firstAttribute="leading" secondItem="T5e-0c-Cqs" secondAttribute="trailing" constant="30" id="cwj-sE-Oqz"/>
                             <constraint firstItem="KAe-QR-hzO" firstAttribute="trailing" secondItem="Y33-LZ-DqK" secondAttribute="trailing" id="dVH-RY-1Za"/>
                             <constraint firstItem="sDr-Xb-RGM" firstAttribute="leading" secondItem="j8P-nY-mHJ" secondAttribute="leading" id="i35-wK-4WU"/>
-                            <constraint firstItem="KZ9-8s-4BU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="mJY-DC-SkQ"/>
-                            <constraint firstItem="Uab-cz-Alo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-7" id="nku-eu-po5"/>
-                            <constraint firstItem="Uab-cz-Alo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-726" id="oaz-DL-eX2"/>
+                            <constraint firstItem="KZ9-8s-4BU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="mJY-DC-SkQ"/>
+                            <constraint firstItem="Uab-cz-Alo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nku-eu-po5"/>
+                            <constraint firstItem="Uab-cz-Alo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-725" id="oaz-DL-eX2"/>
                             <constraint firstItem="KZ9-8s-4BU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="qKN-ZS-rvl"/>
                             <constraint firstItem="KAe-QR-hzO" firstAttribute="baseline" secondItem="sDr-Xb-RGM" secondAttribute="firstBaseline" id="qfo-6x-KVQ"/>
                             <constraint firstItem="QNl-rb-pt8" firstAttribute="trailing" secondItem="sDr-Xb-RGM" secondAttribute="trailing" id="rGx-lR-VSf"/>
