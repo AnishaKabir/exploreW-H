@@ -296,56 +296,42 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="169"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Answer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWW-4X-4fe">
-                                                    <rect key="frame" x="20" y="61" width="374" height="21.5"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="380" id="JR6-ki-y6g"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvT-zH-IVf">
-                                                    <rect key="frame" x="20" y="11" width="374" height="24"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="380" id="bbN-Lr-6gW"/>
-                                                        <constraint firstAttribute="width" constant="380" id="g0H-Tr-85a"/>
-                                                        <constraint firstAttribute="height" constant="24" id="kAY-EJ-Dkt"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                    <variation key="default">
-                                                        <mask key="constraints">
-                                                            <exclude reference="g0H-Tr-85a"/>
-                                                        </mask>
-                                                    </variation>
-                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="531-wT-PYY">
+                                                    <rect key="frame" x="10" y="11" width="394" height="65.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvT-zH-IVf">
+                                                            <rect key="frame" x="0.0" y="0.0" width="394" height="24"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="380" id="g0H-Tr-85a"/>
+                                                                <constraint firstAttribute="height" constant="24" id="kAY-EJ-Dkt"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                            <variation key="default">
+                                                                <mask key="constraints">
+                                                                    <exclude reference="g0H-Tr-85a"/>
+                                                                    <exclude reference="kAY-EJ-Dkt"/>
+                                                                </mask>
+                                                            </variation>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Answer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWW-4X-4fe">
+                                                            <rect key="frame" x="0.0" y="44" width="394" height="21.5"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="380" id="JR6-ki-y6g"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="nWW-4X-4fe" firstAttribute="top" secondItem="UvT-zH-IVf" secondAttribute="bottom" constant="15" id="6dM-Zv-VM1"/>
-                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="nWW-4X-4fe" secondAttribute="bottom" constant="15" id="8Bt-RU-iab"/>
-                                                <constraint firstItem="UvT-zH-IVf" firstAttribute="top" secondItem="laS-zt-dkt" secondAttribute="topMargin" id="AUH-Ps-IR9"/>
-                                                <constraint firstItem="nWW-4X-4fe" firstAttribute="leading" secondItem="laS-zt-dkt" secondAttribute="leadingMargin" id="Jcq-p4-pdA"/>
-                                                <constraint firstItem="nWW-4X-4fe" firstAttribute="top" secondItem="UvT-zH-IVf" secondAttribute="bottom" constant="15" id="P0q-SI-dgN"/>
-                                                <constraint firstItem="nWW-4X-4fe" firstAttribute="top" secondItem="UvT-zH-IVf" secondAttribute="bottom" constant="26" id="Qj6-Ti-epf"/>
-                                                <constraint firstAttribute="trailing" secondItem="UvT-zH-IVf" secondAttribute="trailing" id="Sin-lt-f9M"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="UvT-zH-IVf" secondAttribute="trailing" id="URA-oH-tC0"/>
-                                                <constraint firstItem="UvT-zH-IVf" firstAttribute="leading" secondItem="laS-zt-dkt" secondAttribute="leadingMargin" id="dp3-7s-D3j"/>
-                                                <constraint firstItem="nWW-4X-4fe" firstAttribute="top" secondItem="laS-zt-dkt" secondAttribute="topMargin" constant="50" id="gUM-te-9HN"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="nWW-4X-4fe" secondAttribute="trailing" id="hc9-o0-GLR"/>
-                                                <constraint firstItem="nWW-4X-4fe" firstAttribute="top" secondItem="UvT-zH-IVf" secondAttribute="bottom" constant="26" id="qbe-p1-WB5"/>
-                                                <constraint firstItem="nWW-4X-4fe" firstAttribute="top" secondItem="UvT-zH-IVf" secondAttribute="bottom" constant="15" id="r5x-OU-1i4"/>
+                                                <constraint firstAttribute="trailing" secondItem="531-wT-PYY" secondAttribute="trailing" constant="10" id="JGs-g0-ZAv"/>
+                                                <constraint firstItem="531-wT-PYY" firstAttribute="top" secondItem="laS-zt-dkt" secondAttribute="topMargin" id="Zlz-zU-1TX"/>
+                                                <constraint firstItem="531-wT-PYY" firstAttribute="leading" secondItem="laS-zt-dkt" secondAttribute="leading" constant="10" id="qHT-j1-ljm"/>
                                             </constraints>
-                                            <variation key="default">
-                                                <mask key="constraints">
-                                                    <exclude reference="Sin-lt-f9M"/>
-                                                    <exclude reference="6dM-Zv-VM1"/>
-                                                    <exclude reference="P0q-SI-dgN"/>
-                                                    <exclude reference="gUM-te-9HN"/>
-                                                    <exclude reference="r5x-OU-1i4"/>
-                                                </mask>
-                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="answerLabel" destination="nWW-4X-4fe" id="NOb-Lr-GK3"/>
