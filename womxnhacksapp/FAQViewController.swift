@@ -31,7 +31,7 @@ class FAQViewController: UIViewController, UITableViewDataSource, UITableViewDel
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = faqTableView.dequeueReusableCell(withIdentifier: "FAQCell") as! FAQCell
+        let cell = faqTableView.dequeueReusableCell(withIdentifier: "FAQCell", for: indexPath) as! FAQCell
         
         // set the question and answer labels
         cell.questionLabel.text = questions[indexPath.row]

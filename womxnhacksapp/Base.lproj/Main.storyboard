@@ -151,16 +151,16 @@
         <!--Events-->
         <scene sceneID="vVz-tF-sPm">
             <objects>
-                <viewController id="aka-PO-odI" sceneMemberID="viewController">
+                <viewController id="aka-PO-odI" customClass="EventsViewController" customModule="womxnhacksapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q96-DB-frP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fYh-Np-pFW">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fYh-Np-pFW">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="137" id="0kX-Fc-u12" customClass="EventCell" customModule="womxnhacksapp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventCell" rowHeight="137" id="0kX-Fc-u12" customClass="EventCell" customModule="womxnhacksapp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="137"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0kX-Fc-u12" id="pfG-mb-LvY">
@@ -173,7 +173,7 @@
                                                         <constraint firstAttribute="width" constant="134" id="tK6-gB-7Z0"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daf-s5-BIj">
@@ -182,7 +182,7 @@
                                                         <constraint firstAttribute="width" constant="383" id="JbB-Ty-al3"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnR-hZ-1sL">
@@ -191,8 +191,8 @@
                                                         <constraint firstAttribute="height" constant="24" id="b0D-BL-73G"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
+                                                    <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                                    <color key="highlightedColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
@@ -205,6 +205,7 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="daf-s5-BIj" secondAttribute="bottom" constant="25" id="uBA-gH-iSL"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.4115572274" green="0.29188507800000002" blue="0.38432300089999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
                                             <outlet property="descrip" destination="daf-s5-BIj" id="vlT-hA-K3S"/>
                                             <outlet property="time" destination="RIc-VZ-9nT" id="qof-E0-vKf"/>
@@ -224,6 +225,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Events" id="pFd-um-UDn"/>
+                    <connections>
+                        <outlet property="eventsTableView" destination="fYh-Np-pFW" id="7xa-rF-6iC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bjp-pg-ktC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -285,21 +289,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cp7-po-0up">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cp7-po-0up">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FAQCell" rowHeight="169" id="zIH-Xm-yQS" customClass="FAQCell" customModule="womxnhacksapp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="169"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FAQCell" rowHeight="156" id="zIH-Xm-yQS" customClass="FAQCell" customModule="womxnhacksapp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="156"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="FAQCell" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zIH-Xm-yQS" id="laS-zt-dkt" customClass="FAQCell" customModule="womxnhacksapp" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="169"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="156"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="531-wT-PYY">
                                                     <rect key="frame" x="10" y="11" width="394" height="65.5"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvT-zH-IVf">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvT-zH-IVf">
                                                             <rect key="frame" x="0.0" y="0.0" width="394" height="24"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="380" id="g0H-Tr-85a"/>
@@ -315,7 +319,7 @@
                                                                 </mask>
                                                             </variation>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Answer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWW-4X-4fe">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Answer" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWW-4X-4fe">
                                                             <rect key="frame" x="0.0" y="44" width="394" height="21.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="380" id="JR6-ki-y6g"/>
@@ -325,14 +329,32 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="bottom" secondItem="nWW-4X-4fe" secondAttribute="bottom" constant="30" id="ecN-Tw-F3f"/>
+                                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="nWW-4X-4fe" secondAttribute="bottom" constant="30" id="ruK-f1-7fI"/>
+                                                    </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="ecN-Tw-F3f"/>
+                                                            <exclude reference="ruK-f1-7fI"/>
+                                                        </mask>
+                                                    </variation>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="531-wT-PYY" secondAttribute="bottom" constant="30" id="5Mo-tg-Uu2"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="531-wT-PYY" secondAttribute="bottom" constant="30" id="82A-gY-pLl"/>
                                                 <constraint firstAttribute="trailing" secondItem="531-wT-PYY" secondAttribute="trailing" constant="10" id="JGs-g0-ZAv"/>
                                                 <constraint firstItem="531-wT-PYY" firstAttribute="top" secondItem="laS-zt-dkt" secondAttribute="topMargin" id="Zlz-zU-1TX"/>
                                                 <constraint firstItem="531-wT-PYY" firstAttribute="leading" secondItem="laS-zt-dkt" secondAttribute="leading" constant="10" id="qHT-j1-ljm"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="82A-gY-pLl"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.65806245341243108" green="0.79504656866386658" blue="0.94547405668832485" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
                                             <outlet property="answerLabel" destination="nWW-4X-4fe" id="NOb-Lr-GK3"/>
                                             <outlet property="questionLabel" destination="UvT-zH-IVf" id="eFy-2b-f0i"/>
@@ -402,6 +424,12 @@
         <image name="mascot transparent" width="1198" height="1923"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

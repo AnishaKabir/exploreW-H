@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E6AA16E25C3A98900FC570B /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AA16D25C3A98900FC570B /* EventsViewController.swift */; };
 		3EBF7BF5257DA058002C67F7 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF7BF4257DA058002C67F7 /* EventCell.swift */; };
 		3EBF7BFA257DA476002C67F7 /* FAQCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF7BF9257DA476002C67F7 /* FAQCell.swift */; };
 		3ECEE4C125AD0A15000C2F14 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECEE4C025AD0A15000C2F14 /* FAQViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E6AA16D25C3A98900FC570B /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		3EBF7BF4257DA058002C67F7 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		3EBF7BF9257DA476002C67F7 /* FAQCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQCell.swift; sourceTree = "<group>"; };
 		3ECEE4C025AD0A15000C2F14 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				3EBF7BF4257DA058002C67F7 /* EventCell.swift */,
 				3EBF7BF9257DA476002C67F7 /* FAQCell.swift */,
 				3ECEE4C025AD0A15000C2F14 /* FAQViewController.swift */,
+				3E6AA16D25C3A98900FC570B /* EventsViewController.swift */,
 			);
 			path = womxnhacksapp;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				3EF5E64A2544A44000ECA7FA /* AppDelegate.swift in Sources */,
 				3EBF7BF5257DA058002C67F7 /* EventCell.swift in Sources */,
 				3ECEE4C125AD0A15000C2F14 /* FAQViewController.swift in Sources */,
+				3E6AA16E25C3A98900FC570B /* EventsViewController.swift in Sources */,
 				3EBF7BFA257DA476002C67F7 /* FAQCell.swift in Sources */,
 				3EF5E64C2544A44000ECA7FA /* SceneDelegate.swift in Sources */,
 			);
