@@ -191,18 +191,40 @@
         <!--Sponsors-->
         <scene sceneID="wGf-TN-LCH">
             <objects>
-                <viewController id="pcj-fk-juL" sceneMemberID="viewController">
+                <viewController id="pcj-fk-juL" customClass="SponsorViewController" customModule="womxnhacksapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YOc-MM-ZUa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0o-SX-JLc">
+                                <rect key="frame" x="90" y="153" width="234" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="evidation-wordmark-black-rgb"/>
+                                <connections>
+                                    <action selector="didTapEvidation:" destination="pcj-fk-juL" eventType="touchUpInside" id="26r-p7-dBQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSK-gq-6NA">
+                                <rect key="frame" x="104" y="249" width="206" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="invoca-logo_color"/>
+                                <connections>
+                                    <action selector="didTapInvoca:" destination="pcj-fk-juL" eventType="touchUpInside" id="JOH-ze-Xpk"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Zwv-uQ-9Pj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Sponsors" id="dpY-B5-ERB"/>
+                    <connections>
+                        <outlet property="evidationButton" destination="H0o-SX-JLc" id="3Gp-im-4FG"/>
+                        <outlet property="invocaButton" destination="VSK-gq-6NA" id="A4m-vP-vjJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wa8-y7-Dus" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1952" y="1071"/>
+            <point key="canvasLocation" x="1950.7246376811595" y="1069.4196428571429"/>
         </scene>
         <!--FAQ-->
         <scene sceneID="hin-ch-y1d">
@@ -328,6 +350,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="evidation-wordmark-black-rgb" width="2000" height="528"/>
+        <image name="invoca-logo_color" width="432.5" height="105.5"/>
         <image name="mascot transparent" width="1198" height="1923"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
