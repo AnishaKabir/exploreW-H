@@ -134,6 +134,11 @@
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                             <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                                             <color key="highlightedColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                                            <variation key="default">
+                                                                <mask key="constraints">
+                                                                    <exclude reference="b0D-BL-73G"/>
+                                                                </mask>
+                                                            </variation>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIc-VZ-9nT">
                                                             <rect key="frame" x="0.0" y="28" width="40" height="21.666666666666671"/>
@@ -152,8 +157,10 @@
                                                         </label>
                                                     </subviews>
                                                     <constraints>
+                                                        <constraint firstItem="hnR-hZ-1sL" firstAttribute="leading" secondItem="1dq-kI-uwg" secondAttribute="leading" id="X0T-3c-JE9"/>
                                                         <constraint firstItem="hnR-hZ-1sL" firstAttribute="leading" secondItem="1dq-kI-uwg" secondAttribute="leading" id="dEH-OK-Yr5"/>
                                                         <constraint firstAttribute="trailing" secondItem="hnR-hZ-1sL" secondAttribute="trailing" id="lbw-sq-4A7"/>
+                                                        <constraint firstAttribute="trailing" secondItem="hnR-hZ-1sL" secondAttribute="trailing" id="uxi-6c-tsk"/>
                                                     </constraints>
                                                 </stackView>
                                             </subviews>
@@ -330,7 +337,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="par-SV-H80" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1048" y="1072"/>
+            <point key="canvasLocation" x="1047.8260869565217" y="1071.4285714285713"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Z3j-1k-h7H">
