@@ -11,6 +11,11 @@ class SponsorViewController: UIViewController {
 
     @IBOutlet weak var evidationButton: UIButton!
     @IBOutlet weak var invocaButton: UIButton!
+    @IBOutlet weak var BalsamiqButton: UIButton!
+    @IBOutlet weak var CCSButton: UIButton!
+    @IBOutlet weak var RCSGDButton: UIButton!
+    @IBOutlet weak var ChancellorButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +29,22 @@ class SponsorViewController: UIViewController {
     
     @IBAction func didTapInvoca(_ sender: Any) {
         UIApplication.shared.open(NSURL(string: "https://www.invoca.com/")! as URL)
+    }
+    
+    @IBAction func didTapBalsamiq(_ sender: Any) {
+        UIApplication.shared.open(NSURL(string: "https://balsamiq.com/")! as URL)
+    }
+    
+    @IBAction func didTapCCS(_ sender: Any) {
+        UIApplication.shared.open(NSURL(string: "https://ccs.ucsb.edu/")! as URL)
+    }
+    
+    @IBAction func didTapRCSGD(_ sender: Any) {
+        UIApplication.shared.open(NSURL(string: "http://rcsgd.sa.ucsb.edu/")! as URL)
+    }
+    
+    @IBAction func didTapChancellor(_ sender: Any) {
+        UIApplication.shared.open(NSURL(string: "https://chancellor.ucsb.edu/")! as URL)
     }
     
     /*
