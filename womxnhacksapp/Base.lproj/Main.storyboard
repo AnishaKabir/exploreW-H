@@ -206,7 +206,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0o-SX-JLc">
-                                <rect key="frame" x="90" y="153" width="234" height="55"/>
+                                <rect key="frame" x="90" y="107" width="234" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="evidation-wordmark-black-rgb"/>
                                 <connections>
@@ -214,11 +214,67 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSK-gq-6NA">
-                                <rect key="frame" x="104" y="249" width="206" height="50"/>
+                                <rect key="frame" x="103" y="640" width="206" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="invoca-logo_color"/>
                                 <connections>
                                     <action selector="didTapInvoca:" destination="pcj-fk-juL" eventType="touchUpInside" id="JOH-ze-Xpk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJ1-i4-7iA">
+                                <rect key="frame" x="83" y="534" width="230" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="balsamiq-logo-screen"/>
+                                <connections>
+                                    <action selector="didTapBalsamiq:" destination="pcj-fk-juL" eventType="touchUpInside" id="ceX-4o-17p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZn-Vd-dpi">
+                                <rect key="frame" x="15" y="422" width="400" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Logo-Lockheed-Martin1"/>
+                                <connections>
+                                    <action selector="didTapLockheed:" destination="pcj-fk-juL" eventType="touchUpInside" id="NiI-fO-Veh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JpG-nx-qKU">
+                                <rect key="frame" x="59" y="347" width="290" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="hgdata_owler_20190311_215044_original"/>
+                                <connections>
+                                    <action selector="didTapHGInsights:" destination="pcj-fk-juL" eventType="touchUpInside" id="KZm-Mm-Y2W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pj6-gI-rwB">
+                                <rect key="frame" x="37" y="275" width="343" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="ccs"/>
+                                <connections>
+                                    <action selector="didTapCCS:" destination="pcj-fk-juL" eventType="touchUpInside" id="Cjq-Ms-OF2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPH-2V-eCa">
+                                <rect key="frame" x="65" y="170" width="261" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="UCSB_College_of_Engineering_Logo"/>
+                                <connections>
+                                    <action selector="didTapUCSBEng:" destination="pcj-fk-juL" eventType="touchUpInside" id="4kc-lK-xNt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Va9-iC-5Sk">
+                                <rect key="frame" x="46" y="719" width="326" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="transparent-logo-black-letters"/>
+                                <connections>
+                                    <action selector="didTapRCSGD:" destination="pcj-fk-juL" eventType="touchUpInside" id="Kd3-n9-dvD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hl-Px-i6r">
+                                <rect key="frame" x="65" y="799" width="468" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="chancellor"/>
+                                <connections>
+                                    <action selector="didTapChancellor:" destination="pcj-fk-juL" eventType="touchUpInside" id="LIQ-rK-HUn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -227,6 +283,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="Sponsors" id="dpY-B5-ERB"/>
                     <connections>
+                        <outlet property="BalsamiqButton" destination="ZJ1-i4-7iA" id="miK-FX-nUy"/>
+                        <outlet property="CCSButton" destination="pj6-gI-rwB" id="YYx-ae-pnd"/>
+                        <outlet property="ChancellorButton" destination="9Hl-Px-i6r" id="qWE-Ag-V97"/>
+                        <outlet property="HGInsightsButton" destination="JpG-nx-qKU" id="g4l-VP-EKq"/>
+                        <outlet property="LockheedButton" destination="TZn-Vd-dpi" id="gwQ-TI-SvR"/>
+                        <outlet property="RCSGDButton" destination="Va9-iC-5Sk" id="1Ww-Gg-FXk"/>
+                        <outlet property="UCSBEngButton" destination="rPH-2V-eCa" id="Hav-Sk-FGh"/>
                         <outlet property="evidationButton" destination="H0o-SX-JLc" id="3Gp-im-4FG"/>
                         <outlet property="invocaButton" destination="VSK-gq-6NA" id="A4m-vP-vjJ"/>
                     </connections>
@@ -359,9 +422,16 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Logo-Lockheed-Martin1" width="3025" height="600"/>
+        <image name="UCSB_College_of_Engineering_Logo" width="539" height="184"/>
+        <image name="balsamiq-logo-screen" width="1024" height="327"/>
+        <image name="ccs" width="600" height="80"/>
+        <image name="chancellor" width="521" height="97"/>
         <image name="evidation-wordmark-black-rgb" width="2000" height="528"/>
+        <image name="hgdata_owler_20190311_215044_original" width="1000" height="240"/>
         <image name="invoca-logo_color" width="432.5" height="105.5"/>
         <image name="mascot transparent" width="1198" height="1923"/>
+        <image name="transparent-logo-black-letters" width="1002" height="185"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

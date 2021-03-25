@@ -15,6 +15,9 @@ class SponsorViewController: UIViewController {
     @IBOutlet weak var CCSButton: UIButton!
     @IBOutlet weak var RCSGDButton: UIButton!
     @IBOutlet weak var ChancellorButton: UIButton!
+    @IBOutlet weak var LockheedButton: UIButton!
+    @IBOutlet weak var HGInsightsButton: UIButton!
+    @IBOutlet weak var UCSBEngButton: UIButton!
     
     
     override func viewDidLoad() {
@@ -47,6 +50,17 @@ class SponsorViewController: UIViewController {
         UIApplication.shared.open(NSURL(string: "https://chancellor.ucsb.edu/")! as URL)
     }
     
+    @IBAction func didTapLockheed(_ sender: Any) {
+        UIApplication.shared.open(NSURL(string: "https://www.lockheedmartin.com/en-us/index.html")! as URL)
+    }
+    
+    @IBAction func didTapHGInsights(_ sender: Any) {
+        UIApplication.shared.open(NSURL(string: "https://hginsights.com/")! as URL)
+    }
+    
+    @IBAction func didTapUCSBEng(_ sender: Any) {
+        UIApplication.shared.open(NSURL(string: "https://engineering.ucsb.edu/")! as URL)
+    }
     /*
     // MARK: - Navigation
 
