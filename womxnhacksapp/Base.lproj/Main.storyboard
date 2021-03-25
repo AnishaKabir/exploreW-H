@@ -23,10 +23,10 @@
                                 <color key="highlightedColor" systemColor="systemPurpleColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="mascot transparent" translatesAutoresizingMaskIntoConstraints="NO" id="Uab-cz-Alo">
-                                <rect key="frame" x="151" y="-701" width="112" height="1923"/>
+                                <rect key="frame" x="151" y="-720" width="112" height="1923"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5e-0c-Cqs">
-                                <rect key="frame" x="74" y="387" width="266" height="118"/>
+                                <rect key="frame" x="74" y="368" width="266" height="118"/>
                                 <color key="backgroundColor" red="0.85949796440000004" green="0.95320469139999997" blue="0.93725556139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="266" id="C8L-ue-HW0"/>
@@ -40,7 +40,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDr-Xb-RGM">
-                                <rect key="frame" x="74" y="678" width="266" height="118"/>
+                                <rect key="frame" x="74" y="659" width="266" height="118"/>
                                 <color key="backgroundColor" red="0.82337790730000004" green="0.58664846420000005" blue="0.80394345519999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Sponsors">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -50,7 +50,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y33-LZ-DqK">
-                                <rect key="frame" x="74" y="529" width="266" height="118"/>
+                                <rect key="frame" x="74" y="510" width="266" height="118"/>
                                 <color key="backgroundColor" red="0.88991039989999998" green="0.95491355659999999" blue="0.85096764560000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="118" id="V35-lN-Hbl"/>
@@ -60,6 +60,30 @@
                                 </state>
                                 <connections>
                                     <segue destination="a26-PQ-Quq" kind="show" id="gDP-4E-NtR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYv-6p-CVq">
+                                <rect key="frame" x="89" y="795" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="instagram_logo_transparent512"/>
+                                <connections>
+                                    <action selector="didTapInstagramButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h22-SH-LEZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqF-0F-cEB">
+                                <rect key="frame" x="182" y="800" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="1024px-Facebook_Logo_(2019)"/>
+                                <connections>
+                                    <action selector="didTapFBButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eUh-Iv-gOs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d39-yz-BC2">
+                                <rect key="frame" x="261" y="805" width="55" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="twitter-logo-4"/>
+                                <connections>
+                                    <action selector="didTapTwitterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4oW-aH-iX3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -75,15 +99,15 @@
                             <constraint firstItem="T5e-0c-Cqs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="74" id="M4o-CL-cpL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T5e-0c-Cqs" secondAttribute="trailing" constant="74" id="STa-tW-Qpn"/>
                             <constraint firstItem="T5e-0c-Cqs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="US3-g6-sPA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sDr-Xb-RGM" secondAttribute="bottom" constant="66" id="Y4W-qV-BNO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sDr-Xb-RGM" secondAttribute="bottom" constant="85" id="Y4W-qV-BNO"/>
                             <constraint firstItem="T5e-0c-Cqs" firstAttribute="leading" secondItem="sDr-Xb-RGM" secondAttribute="leading" id="Y7p-rE-f1o"/>
                             <constraint firstItem="T5e-0c-Cqs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="74" id="b6a-0O-f5w"/>
                             <constraint firstItem="KZ9-8s-4BU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="mJY-DC-SkQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y33-LZ-DqK" secondAttribute="trailing" constant="74" id="nF8-iS-Xu5"/>
                             <constraint firstItem="Uab-cz-Alo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nku-eu-po5"/>
-                            <constraint firstItem="Uab-cz-Alo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-701" id="oaz-DL-eX2"/>
+                            <constraint firstItem="Uab-cz-Alo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-720" id="oaz-DL-eX2"/>
                             <constraint firstItem="KZ9-8s-4BU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="qKN-ZS-rvl"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y33-LZ-DqK" secondAttribute="bottom" constant="215" id="vy1-Y3-b7R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y33-LZ-DqK" secondAttribute="bottom" constant="234" id="vy1-Y3-b7R"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -95,8 +119,11 @@
                     <navigationItem key="navigationItem" id="hCV-r3-ow0"/>
                     <connections>
                         <outlet property="EventsButton" destination="T5e-0c-Cqs" id="u3f-FK-hl2"/>
+                        <outlet property="FBButton" destination="dqF-0F-cEB" id="Ytw-st-cfs"/>
+                        <outlet property="InstagramButton" destination="iYv-6p-CVq" id="kBq-oq-TjE"/>
                         <outlet property="ProfileButton" destination="Y33-LZ-DqK" id="Unz-B6-2uP"/>
                         <outlet property="SponsorsButton" destination="sDr-Xb-RGM" id="I4u-sS-aTP"/>
+                        <outlet property="TwitterButton" destination="d39-yz-BC2" id="Z6z-At-vCA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -422,6 +449,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1024px-Facebook_Logo_(2019)" width="1024" height="1024"/>
         <image name="Logo-Lockheed-Martin1" width="3025" height="600"/>
         <image name="UCSB_College_of_Engineering_Logo" width="539" height="184"/>
         <image name="balsamiq-logo-screen" width="1024" height="327"/>
@@ -429,9 +457,11 @@
         <image name="chancellor" width="521" height="97"/>
         <image name="evidation-wordmark-black-rgb" width="2000" height="528"/>
         <image name="hgdata_owler_20190311_215044_original" width="1000" height="240"/>
+        <image name="instagram_logo_transparent512" width="512" height="512"/>
         <image name="invoca-logo_color" width="432.5" height="105.5"/>
         <image name="mascot transparent" width="1198" height="1923"/>
         <image name="transparent-logo-black-letters" width="1002" height="185"/>
+        <image name="twitter-logo-4" width="1600" height="1302"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
