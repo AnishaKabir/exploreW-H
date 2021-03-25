@@ -11,6 +11,9 @@
         <array key="GothicA1-Bold.ttf">
             <string>GothicA1-Bold</string>
         </array>
+        <array key="GothicA1-Regular.ttf">
+            <string>GothicA1-Regular</string>
+        </array>
         <array key="GothicA1-SemiBold.ttf">
             <string>GothicA1-SemiBold</string>
         </array>
@@ -153,9 +156,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fYh-Np-pFW">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fYh-Np-pFW">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="separatorColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventCell" rowHeight="137" id="0kX-Fc-u12" customClass="EventCell" customModule="womxnhacksapp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="137"/>
@@ -165,15 +170,15 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="1dq-kI-uwg">
-                                                    <rect key="frame" x="11" y="11" width="383" height="74"/>
+                                                    <rect key="frame" x="11" y="11" width="383" height="59"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnR-hZ-1sL">
-                                                            <rect key="frame" x="0.0" y="0.0" width="383" height="24"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="383" height="17"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="24" id="b0D-BL-73G"/>
                                                                 <constraint firstAttribute="width" constant="383" id="nOj-tA-fhH"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                            <fontDescription key="fontDescription" name="GothicA1-Bold" family="Gothic A1" pointSize="17"/>
                                                             <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                                             <color key="highlightedColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                             <variation key="default">
@@ -183,17 +188,17 @@
                                                             </variation>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIc-VZ-9nT">
-                                                            <rect key="frame" x="0.0" y="28" width="40" height="21.5"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <rect key="frame" x="0.0" y="21" width="37.5" height="17"/>
+                                                            <fontDescription key="fontDescription" name="GothicA1-Regular" family="Gothic A1" pointSize="17"/>
                                                             <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daf-s5-BIj">
-                                                            <rect key="frame" x="0.0" y="53.5" width="383" height="20.5"/>
+                                                            <rect key="frame" x="0.0" y="42" width="383" height="17"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="383" id="JbB-Ty-al3"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" name="GothicA1-Regular" family="Gothic A1" pointSize="17"/>
                                                             <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -360,15 +365,15 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="531-wT-PYY">
-                                                    <rect key="frame" x="10" y="11" width="394" height="65.5"/>
+                                                    <rect key="frame" x="10" y="11" width="394" height="54"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvT-zH-IVf">
-                                                            <rect key="frame" x="0.0" y="0.0" width="394" height="24"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="394" height="17"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="380" id="g0H-Tr-85a"/>
                                                                 <constraint firstAttribute="height" constant="24" id="kAY-EJ-Dkt"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                            <fontDescription key="fontDescription" name="GothicA1-Bold" family="Gothic A1" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                             <variation key="default">
@@ -379,11 +384,11 @@
                                                             </variation>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Answer" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWW-4X-4fe">
-                                                            <rect key="frame" x="0.0" y="44" width="394" height="21.5"/>
+                                                            <rect key="frame" x="0.0" y="37" width="394" height="17"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="380" id="JR6-ki-y6g"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <fontDescription key="fontDescription" name="GothicA1-Regular" family="Gothic A1" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -413,7 +418,7 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.65806245341243108" green="0.79504656866386658" blue="0.94547405668832485" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.63394689559999995" green="0.76576560739999999" blue="0.88629251720000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
                                             <outlet property="answerLabel" destination="nWW-4X-4fe" id="NOb-Lr-GK3"/>
                                             <outlet property="questionLabel" destination="UvT-zH-IVf" id="eFy-2b-f0i"/>

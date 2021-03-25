@@ -26,7 +26,7 @@ class EventsViewController: UIViewController, UITableViewDataSource, UITableView
         // set the question and answer labels
         cell.title.text = eventTitles[indexPath.row]
         cell.time.text = times[indexPath.row]
-        cell.descrip.text = "Blah blah blah"
+        cell.descrip.text = ""
         
         return cell
     }
