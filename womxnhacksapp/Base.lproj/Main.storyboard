@@ -31,9 +31,6 @@
                                 <rect key="frame" x="-394" y="79" width="1200" height="854"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="mascot transparent" translatesAutoresizingMaskIntoConstraints="NO" id="Uab-cz-Alo">
-                                <rect key="frame" x="151" y="-711" width="112" height="1923"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5e-0c-Cqs">
                                 <rect key="frame" x="107" y="382" width="200" height="75"/>
                                 <color key="backgroundColor" red="0.88991039989999998" green="0.95491355659999999" blue="0.85096764560000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -75,7 +72,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqF-0F-cEB">
-                                <rect key="frame" x="181.13153824421852" y="801" width="50" height="50.000000000000114"/>
+                                <rect key="frame" x="181" y="801" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="1024px-Facebook_Logo_(2019)"/>
                                 <connections>
@@ -83,7 +80,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d39-yz-BC2">
-                                <rect key="frame" x="271" y="805" width="55" height="44"/>
+                                <rect key="frame" x="270.5" y="805" width="55.5" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="twitter-logo-4"/>
                                 <connections>
@@ -98,17 +95,20 @@
                                     <action selector="didTapInstagramButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h22-SH-LEZ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WOMXN/HACKS 3.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZ9-8s-4BU">
-                                <rect key="frame" x="58.5" y="108" width="287.5" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WOMEN/HACKS 3.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZ9-8s-4BU">
+                                <rect key="frame" x="58.5" y="108" width="287" height="30"/>
                                 <fontDescription key="fontDescription" name="GothicA1-Bold" family="Gothic A1" pointSize="30"/>
                                 <color key="textColor" red="0.25403716869003362" green="0.19758082510730571" blue="0.34992649217055838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" systemColor="systemPurpleColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="mascot transparent" translatesAutoresizingMaskIntoConstraints="NO" id="Uab-cz-Alo">
+                                <rect key="frame" x="155" y="-707" width="102" height="1923"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Uab-cz-Alo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="151" id="1W4-zX-qwG"/>
                             <constraint firstItem="Y33-LZ-DqK" firstAttribute="top" secondItem="T5e-0c-Cqs" secondAttribute="bottom" constant="38" id="2L9-aX-UQf"/>
                             <constraint firstItem="Y33-LZ-DqK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="6f2-N3-eRq"/>
                             <constraint firstItem="T5e-0c-Cqs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="Hm6-yY-BJs"/>
@@ -124,8 +124,6 @@
                             <constraint firstItem="T5e-0c-Cqs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="b6a-0O-f5w"/>
                             <constraint firstItem="KZ9-8s-4BU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58.5" id="hFv-Il-kR3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y33-LZ-DqK" secondAttribute="trailing" constant="107" id="nF8-iS-Xu5"/>
-                            <constraint firstItem="Uab-cz-Alo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nku-eu-po5"/>
-                            <constraint firstItem="Uab-cz-Alo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-711" id="oaz-DL-eX2"/>
                             <constraint firstItem="KZ9-8s-4BU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="qKN-ZS-rvl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y33-LZ-DqK" secondAttribute="bottom" constant="292" id="vy1-Y3-b7R"/>
                         </constraints>
