@@ -196,35 +196,29 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="tJi-NS-6Qs">
-                                                    <rect key="frame" x="20" y="11" width="374" height="42"/>
+                                                    <rect key="frame" x="20" y="11" width="345" height="42"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMH-bi-w5g">
-                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="17"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="345" height="17"/>
                                                             <fontDescription key="fontDescription" name="GothicA1-Bold" family="Gothic A1" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFw-0H-IYM">
-                                                            <rect key="frame" x="0.0" y="25" width="374" height="17"/>
+                                                            <rect key="frame" x="0.0" y="25" width="345" height="17"/>
                                                             <fontDescription key="fontDescription" name="GothicA1-Regular" family="Gothic A1" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="200" id="Nsv-Pr-cFi"/>
+                                                        <constraint firstAttribute="width" constant="345" id="J2p-Yj-FK4"/>
                                                     </constraints>
-                                                    <variation key="default">
-                                                        <mask key="constraints">
-                                                            <exclude reference="Nsv-Pr-cFi"/>
-                                                        </mask>
-                                                    </variation>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="tJi-NS-6Qs" secondAttribute="trailing" id="7Rd-uo-LSu"/>
-                                                <constraint firstItem="tJi-NS-6Qs" firstAttribute="leading" secondItem="vHn-16-AZb" secondAttribute="leadingMargin" id="CX0-WO-fJm"/>
-                                                <constraint firstItem="tJi-NS-6Qs" firstAttribute="top" secondItem="vHn-16-AZb" secondAttribute="topMargin" id="CmZ-hG-QE5"/>
+                                                <constraint firstItem="tJi-NS-6Qs" firstAttribute="top" secondItem="vHn-16-AZb" secondAttribute="topMargin" id="5et-Ch-sVg"/>
+                                                <constraint firstItem="tJi-NS-6Qs" firstAttribute="leading" secondItem="vHn-16-AZb" secondAttribute="leadingMargin" id="XKD-fr-bPh"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.63394689559999995" green="0.76576560739999999" blue="0.88629251720000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
