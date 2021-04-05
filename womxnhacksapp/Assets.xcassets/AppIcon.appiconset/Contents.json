@@ -1,42 +1,49 @@
 {
   "images" : [
     {
+      "filename" : "w_h app image (1) (13).jpg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "w_h app image (1) (12).jpg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
+      "filename" : "w_h app image (1) (11).jpg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "w_h app image.jpg",
+      "filename" : "w_h app image (1) (10).jpg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
+      "filename" : "w_h app image (1) (9).jpg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
+      "filename" : "w_h app image (1) (8)-1.jpg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
+      "filename" : "w_h app image (1) (8).jpg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "w_h app image (1) (1).jpg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -87,6 +94,7 @@
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "w_h app image (1) (14).jpg",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
